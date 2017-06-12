@@ -1,0 +1,36 @@
+body{
+	margin:0;
+	width:100%;
+}
+
+.pointCanvas{
+	width:100%;
+	height:800px;
+}
+
+.mapCanvas{
+	width:50%;
+	height:400px;
+}
+
+canvas{
+	display:block;
+}
+
+img{
+	display:block;
+}
+
+.img1, .img3, .img4{
+	width:100%;
+}
+
+.img2{
+	width:50%;
+	float:left;
+}
+
+#pointAnimation{
+	z-index:-1;
+	position:absolute;
+}
